@@ -1,0 +1,171 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.services {
+
+    .heading{
+        font-size: 3.5rem;
+    }
+    h1{
+        span{    
+            font-size: 3.5rem;
+        }
+    }
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(43rem, 1fr));
+        gap: 2rem;
+        .box {
+            background: #fff;
+            border-radius: 0.5rem;
+            box-shadow: var(--box-shadow);
+            border: var(--border);
+            padding: 2.5rem;
+            position: relative;
+            i {
+                color: #2fbab8;
+                font-size: 3rem;
+                padding-bottom: 0.5rem;
+            }
+            h3 {
+                color: var(--black);
+                font-size: 2.5rem;
+                padding: 1rem 0;
+                text-transform: none;
+                color: #2fbab8;
+            }
+            p {
+                color: var(--light-color);
+                font-size: 1.4rem;
+                line-height: 2;
+                text-transform: none;
+                text-align: justify;
+            }
+        }
+    }
+    .cost {
+        color: #2fbab8;
+        text-transform: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+.page-item {
+    .page-link {
+        color: $main-color;
+        &:hover, &:focus, &:active {
+            color: $main-color;
+        }
+    }
+    &.active {
+        .page-link {
+            background-color: $main-color !important;
+            border-color: $main-color !important;
+            color: #fff;
+        }
+    }
+}
+.header{
+    .banner{
+        right: 55px;
+        padding-bottom: 1rem;
+        bottom: 5px;
+
+    }
+    .navbar {
+
+        .logout{
+            background-color: black;
+            border-radius: 12px;
+            color: #fff !important;
+            font-weight: 0.8rem;
+            padding: 0px 5px;
+
+        }
+        .logout:hover{
+            background-color: black;
+            color: #2fbab8 !important;
+        }
+        
+        .book{
+            background-color:#2fbab8;
+            border-radius: 12px;
+            margin: auto;
+            color: #fff !important;
+            padding: 0px 5px;
+
+        }
+        .book:hover{
+            background-color:#048f8e;
+            color: #fff;
+
+        }
+        
+    }
+    .card-body{
+        .table{
+            .thead{
+                background-color: #048f8e !important;
+            }
+        }
+    }
+}
+header {
+    &.v-sheet {
+        left: 0 !important;
+        width: 100% !important;
+    }
+    .mdi-chevron-left::before {
+        content: "<" !important;
+    }
+    .mdi-chevron-right::before {
+        content: ">" !important;
+      }
+}
+.reservation-table {
+    thead {
+        th {
+            text-align: center;
+            font-size: 1.4rem;
+            div {
+                text-align: center;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+.radio-custom {
+    text-align: center;
+    padding: 4px;
+    input {
+        display: none;
+    }
+    label {
+        cursor: pointer;
+        width: 75%;
+        border-radius: 6px;
+        border: 1px solid $main-color;
+        padding: 4px 24px;
+        &:hover {
+            background: $main-color;
+            color: #fff;
+        }
+    }
+    input:focus + label, input:checked + label {
+        border-color: $main-hover-color;
+        background: $main-hover-color;
+        color: #fff;
+    }
+}
