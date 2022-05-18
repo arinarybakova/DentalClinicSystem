@@ -17,26 +17,26 @@ In the final bachelor project, a prototype of a Dental Clinic Information System
 6. Generate Artisan key by using command below:
     ```php artisan key:generate```
 7. Run migrations:
-    php artisan migrate
+    ```php artisan migrate```
 8. Run database seeds:
-   php artisan db:seed
+   ```php artisan db:seed```
 9. Install Vue.js framework:
-    npm install -g npm@6.14.6
+    ```npm install -g npm@6.14.6```
 10. Install Vuetify library:
-    npm install vuetify
+    ```npm install vuetify```
 11. Run Configuration Caching:
-    php artisan config:cache
+    ```php artisan config:cache```
 12. Run Route Cache command:
-    php artisan route:cache
+    ```php artisan route:cache```
 13. Run View Cache command:
-    php artisan view:cache
+    ```php artisan view:cache```
 14. Run command below to compile all assets:
-    npm run dev
+    ```npm run dev```
 15. Start application on the PHP development server:
-    php artisan serve
+    ```php artisan serve```
 16. In order to sent mails, in the .env file setup SMTP server configurations.
 17. Run queue commands to sent mails:
-         php artisan:queue:work  (for cancelled appointments and profile creation mails)
-         php artisan schedule:work (for approved appointments)
+         ```php artisan:queue:work```  (for cancelled appointments and profile creation mails)
+         ```php artisan schedule:work``` (for approved appointments)
 
 
