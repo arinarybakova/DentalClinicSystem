@@ -10,12 +10,12 @@ In the final bachelor project, a prototype of a Dental Clinic Information System
     https://getcomposer.org/Composer-Setup.exe
     
 3. Clone repo to the local machine using command below:
-    git clone https://github.com/arinarybakova/DentalClinicSystem.git
+    ```git clone https://github.com/arinarybakova/DentalClinicSystem.git```
 4. Install Laravel framework using command below:
-    composer global require "laravel/installer=~1.1"
+    ```composer global require "laravel/installer=~1.1"```
 5. Copy .env.settings file and rename it to .env file, change server port, database name, username and password.
 6. Generate Artisan key by using command below:
-    php artisan key:generate
+    ```php artisan key:generate```
 7. Run migrations:
     php artisan migrate
 8. Run database seeds:
