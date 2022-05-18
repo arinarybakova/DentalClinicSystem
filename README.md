@@ -5,8 +5,10 @@ In the final bachelor project, a prototype of a Dental Clinic Information System
 ## Project setup
 1. Install XAMP software from the link below:
      https://www.apachefriends.org/xampp-files/8.0.18/xampp-windows-x64-8.0.18-0-VS16-installer.exe
+     
 2. Install Composer for the PHP programmin language from the link below:
     https://getcomposer.org/Composer-Setup.exe
+    
 3. Clone repo to the local machine using command below:
     git clone https://github.com/arinarybakova/DentalClinicSystem.git
 4. Install Laravel framework using command below:
